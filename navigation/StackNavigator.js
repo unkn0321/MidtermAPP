@@ -11,7 +11,6 @@ export default function StackNavigator() {
     <Stack.Navigator
     initialRouteName='BottomTabNavigator'
     screenOptions={{headerShown:false}}>
-    
     <Stack.Screen name="BottomTabNavigator" component={BottomTabNavigator} />
     <Stack.Screen name="NewsDetail" component={NewsDetail} />
     <Stack.Screen name="SortNews" component={SortNews} />

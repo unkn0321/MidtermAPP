@@ -1,8 +1,6 @@
 import React from "react";
 import { StyleSheet, Text, View, Image, ScrollView } from "react-native";
 import {NavigationContainer}from'@react-navigation/native';
-import{createStackNavigator}from'@react-navigation/stack';
-import { useNavigation } from '@react-navigation/native';
 import Main_ImportantNews from "./Screendetails/Home_ImportantNews"
 import Main_TodayInfo from "./Screendetails/Home_TodayInfo"
 import Main_SortNews from "./Screendetails/Home_SortNews"
@@ -12,7 +10,6 @@ import SortNews from "./SortNews";
 
 
 const Home=({navigation})=>{
-  //const navigation=useNavigation();
 
   return (
     <ScrollView contentContainerStyle={styles.mainPageContent}>
